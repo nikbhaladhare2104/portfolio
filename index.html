@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/eb839ac451.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!------------ Header ------------>
+
+    <div id="header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg bg-white">
+          <div class="container-fluid">
+            <a href="#" class="navbar-brand" ><img src="images/logo.png" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon my-toggler"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" href="#"><p>Home</p></a>
+                <a class="nav-link" href="#about"><p>About</p></a>
+                <a class="nav-link" href="#portfolio"><p>Portfolio</p></a>
+                <a class="nav-link" href="#contact"><p>Contact</p></a>
+                <!-- <a class="nav-link disabled" aria-disabled="true">Contact</a> -->
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h1>Hi, I'm <span> Nikhil </span> <br>Bhaladhare from Mumbai </h1>
+        </div>
+
+      </div>
+
+    </div>
+
+
+<!-- ----------------------- About ------------------------ -->
+
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="images/image2.jpeg">
+      </div>
+      <div class="about-col-2">
+
+        <h1 class="main-h1">About Me</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        
+        <div class="about-titles">
+          <p class="about-links active-link" onclick="openlink('skills')">Skills</p>
+          <p class="about-links" onclick="openlink('education')">Education</p>
+          <p class="about-links" onclick="openlink('projects')">Projects</p>
+
+          
+        </div>
+
+        <div class="about-contents active-content" id="skills">
+          
+            <li><span>ML Engineer</span> <br> AI Projects </li>
+            <li><span>Web Developer</span> <br>  Site building</li>
+            <li><span>Pytohn Developer</span ><br>   Python Games </li>
+          
+        </div>
+
+        <div class="about-contents" id="education">
+
+            <li><span>X</span> <br>JNV Gondia </li>
+            <li><span>XII</span> <br>  JNV Pune</li>
+            <li><span>Bachelor's</span ><br>  IIT Bombay </li>
+        </div> 
+
+        <div class="about-contents" id="projects">
+            <li><span>ML Engineer</span> <br> AI Projects </li>
+            <li><span>Web Developer</span> <br>  Site building</li>
+            <li><span>Pytohn Developer</span ><br>   Python Games </li>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ------------------------ Portfolio ------------------------ -->
+
+<div id="portfolio">
+  <div class="container">
+    <h1 class="main-h1">Portfolio</h1>
+    <div class="portfolio-list">
+
+      <div>
+        <i class="fa-solid fa-code-branch"></i>
+        <h2>ML</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        <a href="#">Learn More</a>
+      </div>
+
+      <div>
+        <i class="fa-brands fa-python"></i>
+        <h2>Python </h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        <a href="#">Learn More</a>
+      </div>
+
+      <div>
+        <i class="fa-solid fa-globe"></i>
+        <h2>Web Design</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        <a href="#">Learn More</a>
+      </div>
+      
+    </div>
+  </div>
+</div>
+  
+
+<!-- ------------------------ Something ------------------------ -->
+
+<div id="something">
+  <div class="container">
+    <h1 class="main-h1">Something</h1>
+    <div class="something-list">
+
+      <div class="work">
+        <img src="images/image2.jpeg">
+        <div class="layer">
+          <h3>My app</h3>
+          <p>I am building something and will do something.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="images/image4.jpeg">
+        <div class="layer">
+          <h3>My app</h3>
+          <p>I am building something and will do something.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="images/image5.jpeg">
+        <div class="layer">
+          <h3>My app</h3>
+          <p>I am building something and will do something.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+    </div>
+    <a href="#" class="btn">See More</a>
+  </div>
+</div>
+
+
+
+<!-- ------------------------ contact ------------------------ -->
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+
+      <div class="contact-left">
+          <h1 class="main-h1">Contact Me</h1>
+          <p> <i class="fa-solid fa-envelope"></i>nikhil@whatever.com </p>
+          <p><i class="fa-solid fa-phone"></i>9876543219</p>
+          <div class="social-icons">
+            <a href="#" > <i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" > <i class="fa-brands fa-instagram"></i></a>
+            <a href="#" > <i class="fa-brands fa-facebook"></i></a>
+            <a href="#" > <i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <a href="#" class=" btn btn-cv">Download CV</a>
+      </div>
+
+      <div class="contact-right">
+        <form>
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Youe Message" ></textarea>
+          <button type="submit" class="btn btn-cv">Submit</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="copyright">
+    <p>Copyright <i class="fa-regular fa-copyright"></i> 2023  NB Production </p>
+  </div>
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+</body>
+
+</html>
